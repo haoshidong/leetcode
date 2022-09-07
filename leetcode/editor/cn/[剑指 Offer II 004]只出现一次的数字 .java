@@ -43,22 +43,12 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int singleNumber(int[] nums) {
-        Map<Integer,Integer> map = new HashMap<>();
+        Arrays.sort(nums);
         int n = nums.length;
-        int result = -1;
-        for (int i=0;i<n;i++){
-            if (map.get(nums[i]) == null) {
-                map.put(nums[i], 3);
-                continue;
-            }
-            map.put(nums[i],map.get(nums[i])-1);
+        for (int i = 0; i < n - 2; i += 3) {
+            if (nums[i + 1] != nums[i]) return nums[i];
         }
-        for (int i:map.keySet()){
-            if (map.get(i)==3){
-                result = i;
-            }
-        }
-        return result;
+        return nums[n - 1];
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

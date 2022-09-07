@@ -1,22 +1,28 @@
+/*
 package 剑指offer;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class test {
 
-    public static int[] countBits(int n) {
-        int[] res = new int[n+1];
-        for (int i=0;i<=n;i++){
-            int k = 0;
-            int value = i;
-            while (value>0){
-                k += (value%2);
-                value /= 2;
+    public int ssingleNumber(int[] nums) {
+        int[] cnt = new int[32];
+        int result = 0;
+        for (int s:nums){
+            for (int i=0;i<32;i++){
+                if (((s>>i)&1)==1){
+                    cnt[i] += 1;
+                }
             }
-            res[i] = k;
         }
-        return res;
+        for (int i=0;i<32;i++){
+            if (cnt[i]%3==1){
+                result += 1>>i;
+            }
+        }
     }
 
     public static void main(String[] args) {
@@ -40,3 +46,4 @@ public class test {
     }
 
 }
+*/

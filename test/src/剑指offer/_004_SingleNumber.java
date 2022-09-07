@@ -8,8 +8,22 @@ import java.util.Objects;
 public class _004_SingleNumber {
 
     public int singleNumber(int[] nums) {
-        Map<Integer,Integer> map = new HashMap<>();
-        int n = nums.length;
+        int[] cnt = new int[32];
+        int result = 0;
+        for (int s:nums){
+            for (int i=0;i<32;i++){
+                if (((s>>i)&1)==1){
+                    cnt[i]++;
+                }
+            }
+        }
+        for (int i=0;i<32;i++){
+            if (cnt[i]%3==1){
+                result += (1<<i);
+            }
+        }
+        return result;
+        /*int n = nums.length;
         int result = -1;
         for (int i=0;i<n;i++){
             if (map.get(nums[i]) == null) {
@@ -23,7 +37,7 @@ public class _004_SingleNumber {
                 result = i;
             }
         }
-        return result;
+        return result;*/
     }
 
     public static void main(String[] args) {
