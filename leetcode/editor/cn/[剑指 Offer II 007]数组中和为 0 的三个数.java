@@ -58,7 +58,38 @@ nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0 。
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> result = new LinkedList<List<Integer>>();
+        if (nums.length>2) {
+            Arrays.sort(nums);
+            int i = 0;
+            while (i<nums.length-2){        //不能用for循环，否则与18行的i++导致i增加2次。
+                twoSum(nums, result, i);
+                int temp = nums[i];
+                while (i<nums.length && nums[i]==temp){
+                    ++i;
+                }
+            }
+        }
+        return result;
+    }
 
+    public void twoSum(int[] nums, List<List<Integer>> result, int i) {
+        int j = i+1;
+        int k = nums.length-1;
+        while (j<k){
+            if (nums[i]+nums[j]+nums[k]<0){
+                ++j;
+            } else if (nums[i]+nums[j]+nums[k]>0) {
+                --k;
+            }else {
+                result.add(Arrays.asList(nums[i],nums[j],nums[k]));
+                int temp = nums[j];
+                while (nums[j]==temp && j<k){
+                    j++;
+                }
+
+            }
+        }
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

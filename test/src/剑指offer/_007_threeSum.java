@@ -1,40 +1,55 @@
 package 剑指offer;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 public class _007_threeSum {
 
     public List<List<Integer>> threeSum(int[] nums) {
-        Arrays.stream(nums).sorted();
-        List<List<Integer>> ans = null;
-        for (int i=0;i<nums.length;i++){
-            List<List<Integer>> zero = twoSum(nums, 0-nums[i], i);
-            List<List<Integer>> three = twoSum(nums, 3-nums[i], i);
+        List<List<Integer>> result = new LinkedList<List<Integer>>();
+        if (nums.length>2) {
+            Arrays.sort(nums);
+            int i = 0;
+            while (i<nums.length-2){        //不能用for循环，否则与18行的i++导致i增加2次。
+                twoSum(nums, result, i);
+                int temp = nums[i];
+                while (i<nums.length && nums[i]==temp){
+                    ++i;
+                }
+            }
         }
-        for (List<Integer> x:zero){
+        return result;
+    }
 
+    public void twoSum(int[] nums, List<List<Integer>> result, int i) {
+        int j = i+1;
+        int k = nums.length-1;
+        while (j<k){
+            if (nums[i]+nums[j]+nums[k]<0){
+                ++j;
+            } else if (nums[i]+nums[j]+nums[k]>0) {
+                --k;
+            }else {
+                result.add(Arrays.asList(nums[i],nums[j],nums[k]));
+                int temp = nums[j];
+                while (nums[j]==temp && j<k){
+                    j++;
+                }
+
+            }
         }
     }
 
-    public List<List<Integer>> twoSum(int[] numbers, int target, int k) {
-        int i = 0;
-        int j = numbers.length-1;
-        List<List<Integer>> zero_r = null;
-        while (i<j){
-            if (numbers[i]+numbers[j]<target){
-                i++;
-            } else if (numbers[i]+numbers[j]>target) {
-                j--;
-            }else {
-                List<Integer> zero = null;
-                zero.add(i);
-                zero.add(j);
-                zero.add(k);
-                zero_r.add(zero);
+    public static void main(String[] args) {
+        int[] nums = {-1,0,1,2,-1,-4};
+        List<List<Integer>> result = new _007_threeSum().threeSum(nums);
+        for (List<Integer> list:result){
+            System.out.println("");
+            for (int x:list){
+                System.out.print(x);
             }
         }
-        return zero_r;
     }
 
 }
