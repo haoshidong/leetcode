@@ -39,22 +39,16 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int subarraySum(int[] nums, int k) {
-        int length = nums.length;
-        int[] s = new int[length+1];
+        Map<Integer, Integer> sumToCount = new HashMap<>();
+        sumToCount.put(0,1);
+        int sum = 0;
         int count = 0;
-        s[0] = 0;
-        for (int i = 0; i < length; i++) {
-            s[i+1] = s[i]+nums[i];
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+            count += sumToCount.getOrDefault(sum-k,0);      //加上以i结尾的连续数组之和为k的个数
+            sumToCount.put(sum,sumToCount.getOrDefault(sum,0)+1);
         }
-        for (int size = 1; size <= length; size++) {
-            for (int i=0;i<length && i+size<=length;i++){
-                int sum = 0;
-                sum = s[i+size]-s[i];
-                if (sum == k){
-                    count++;
-                }
-            }
-        }
+
         return count;
     }
 }
