@@ -1,11 +1,6 @@
 package 剑指offer;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
-
-public class _004_SingleNumber {
+public class p004_SingleNumber {
 
     public int singleNumber(int[] nums) {
         int[] cnt = new int[32];
@@ -42,7 +37,7 @@ public class _004_SingleNumber {
 
     public static void main(String[] args) {
         int[] nums = {0,1,0,1,0,1,99};
-        int result = new _004_SingleNumber().singleNumber(nums);
+        int result = new p004_SingleNumber().singleNumber(nums);
         System.out.println(result);
     }
 

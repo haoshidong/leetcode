@@ -1,6 +1,6 @@
 package 剑指offer;
 
-public class _005_maxProduct {
+public class p005_maxProduct {
 
     public int maxProduct(String[] words) {
         int[] flags = new int[words.length];

@@ -1,6 +1,6 @@
 package 剑指offer;
 
-public class _002_binary {
+public class p002_binary {
         public String addBinary(String a, String b) {
             StringBuffer ans = new StringBuffer();
 

@@ -1,6 +1,6 @@
 package 剑指offer;
 
-public class _024_reverseList {
+public class p024_reverseList {
     public ListNode reverseList(ListNode head) {
         if (head == null){
             return null;

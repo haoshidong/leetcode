@@ -3,7 +3,7 @@ package 剑指offer;
 import java.util.HashMap;
 import java.util.Map;
 
-public class _011_findMaxLength {
+public class p011_findMaxLength {
 
     public int findMaxLength(int[] nums) {
         Map<Integer, Integer> sumToIndex = new HashMap<>();

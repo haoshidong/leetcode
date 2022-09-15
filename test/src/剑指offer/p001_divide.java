@@ -2,7 +2,7 @@ package 剑指offer;
 
 import java.util.Scanner;
 
-public class _001_divide {
+public class p001_divide {
 
     public static int divide(int dividend,int divisor){
         if (dividend == 0x80000000 && divisor == -1 ){

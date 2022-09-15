@@ -1,6 +1,6 @@
 package 剑指offer;
 
-public class _009_numSubarrayProductLessThanK {
+public class p009_numSubarrayProductLessThanK {
 
     public int numSubarrayProductLessThanK(int[] nums, int k) {
         int left = 0;
@@ -18,7 +18,7 @@ public class _009_numSubarrayProductLessThanK {
 
     public static void main(String[] args) {
         int[] nums = {10,5,2,6};
-        int ans = new _009_numSubarrayProductLessThanK().numSubarrayProductLessThanK(nums,100);
+        int ans = new p009_numSubarrayProductLessThanK().numSubarrayProductLessThanK(nums,100);
         System.out.println(ans);
     }
 

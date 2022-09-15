@@ -1,6 +1,6 @@
 package 剑指offer;
 
-public class _020_countSubstrings { 
+public class p020_countSubstrings {
     public int countSubstrings(String s) {
         if (s==null || s.length() ==0){
             return 0;

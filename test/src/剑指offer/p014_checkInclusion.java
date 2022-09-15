@@ -1,6 +1,6 @@
 package 剑指offer;
 
-public class _014_checkInclusion {
+public class p014_checkInclusion {
     public boolean checkInclusion(String s1, String s2) {
         if (s2.length()<s1.length()){
             return false;

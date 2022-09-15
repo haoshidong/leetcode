@@ -3,7 +3,7 @@ package 剑指offer;
 import java.util.HashMap;
 import java.util.Map;
 
-public class _017_minWindow {
+public class p017_minWindow {
     public String minWindow(String s, String t) {
         if (s.length()<t.length()){
             return "";
@@ -50,7 +50,7 @@ public class _017_minWindow {
     public static void main(String[] args) {
         String s = "ADOBECODEBANC";
         String t = "ABC";
-        String result = new _017_minWindow().minWindow(s,t);
+        String result = new p017_minWindow().minWindow(s,t);
         System.out.println(result);
     }
 }

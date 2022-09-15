@@ -1,6 +1,6 @@
 package 剑指offer;
 
-public class _008_minSubArrayLen {
+public class p008_minSubArrayLen {
 
     public int minSubArrayLen(int target, int[] nums) {
         int left = 0;

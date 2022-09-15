@@ -1,6 +1,6 @@
 package 剑指offer;
 
-public class _016_lengthOfLongestSubstring {
+public class p016_lengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
         if (s.length()==0){
             return 0;
@@ -33,7 +33,7 @@ public class _016_lengthOfLongestSubstring {
 
     public static void main(String[] args) {
         String s = "";
-        int result = new _016_lengthOfLongestSubstring().lengthOfLongestSubstring(s);
+        int result = new p016_lengthOfLongestSubstring().lengthOfLongestSubstring(s);
         System.out.println(result);
     }
 }

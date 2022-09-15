@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class _007_threeSum {
+public class p007_threeSum {
 
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new LinkedList<List<Integer>>();
@@ -43,7 +43,7 @@ public class _007_threeSum {
 
     public static void main(String[] args) {
         int[] nums = {-1,0,1,2,-1,-4};
-        List<List<Integer>> result = new _007_threeSum().threeSum(nums);
+        List<List<Integer>> result = new p007_threeSum().threeSum(nums);
         for (List<Integer> list:result){
             System.out.println("");
             for (int x:list){

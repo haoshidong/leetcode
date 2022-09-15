@@ -1,6 +1,6 @@
 package 剑指offer;
 
-public class _018_isPalindrome {
+public class p018_isPalindrome {
     public boolean isPalindrome(String s) {
         int end = s.length()-1;
         int start = 0;

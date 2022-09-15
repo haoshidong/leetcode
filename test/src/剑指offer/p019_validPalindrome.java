@@ -1,6 +1,6 @@
 package 剑指offer;
 
-public class _019_validPalindrome {
+public class p019_validPalindrome {
     public boolean validPalindrome(String s) {
         int end = s.length()-1;
         int start = 0;
@@ -50,7 +50,7 @@ public class _019_validPalindrome {
 
     public static void main(String[] args) {
         String s = "abc";
-        boolean flag = new _019_validPalindrome().validPalindrome(s);
+        boolean flag = new p019_validPalindrome().validPalindrome(s);
         System.out.println(flag);
     }
 }

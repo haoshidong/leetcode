@@ -3,7 +3,7 @@ package 剑指offer;
 import java.util.HashMap;
 import java.util.Map;
 
-public class _010_subarraySum {
+public class p010_subarraySum {
     public int subarraySum(int[] nums, int k) {
         Map<Integer, Integer> sumToCount = new HashMap<>();
         sumToCount.put(0,1);
@@ -21,7 +21,7 @@ public class _010_subarraySum {
     public static void main(String[] args) {
         int[] nums = {1,1,1};
         int k = 2;
-        int ans = new _010_subarraySum().subarraySum(nums,k);
+        int ans = new p010_subarraySum().subarraySum(nums,k);
         System.out.println(ans);
     }
 }

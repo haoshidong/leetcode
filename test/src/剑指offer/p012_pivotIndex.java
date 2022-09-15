@@ -1,6 +1,6 @@
 package 剑指offer;
 
-public class _012_pivotIndex {
+public class p012_pivotIndex {
     public int pivotIndex(int[] nums) {
         int totalSum = 0;
         for (int x:nums){

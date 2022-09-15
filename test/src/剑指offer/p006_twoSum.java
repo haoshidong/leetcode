@@ -1,6 +1,6 @@
 package 剑指offer;
 
-public class _006_twoSum {
+public class p006_twoSum {
 
     public int[] twoSum(int[] numbers, int target) {
         int i = 0;

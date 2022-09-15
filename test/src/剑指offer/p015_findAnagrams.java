@@ -3,7 +3,7 @@ package 剑指offer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _015_findAnagrams {
+public class p015_findAnagrams {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
         if (s.length()<p.length()){

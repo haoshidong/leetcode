@@ -1,6 +1,6 @@
 package 剑指offer;
 
-public class _013_NumMatrix {
+public class p013_NumMatrix {
     private int[][] sums;
 
     public void NumMatrix(int[][] matrix) {

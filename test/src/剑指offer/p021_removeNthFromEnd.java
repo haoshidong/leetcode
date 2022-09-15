@@ -1,6 +1,6 @@
 package 剑指offer;
 
-public class _021_removeNthFromEnd {
+public class p021_removeNthFromEnd {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy = new ListNode(0,head);
         int i = 0;
