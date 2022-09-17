@@ -80,69 +80,34 @@ class Node {
 class Solution {
     public Node insert(Node head, int insertVal) {
         Node newNode = new Node(insertVal);
-        if (head == null){
+        if (head == null) {
             head = newNode;
-            newNode.next = head;
+            newNode.next = newNode;
             return head;
         }
-        if (head == head.next){
-            head.next = newNode;
-            newNode.next = head;
-            return head;
-        }
-        Node node = head;
         int min = head.val;
         int max = head.val;
-        Node minNode = head;
-        Node maxNode = head;
-        while (node.next != head){
-            if (min > node.next.val){
-                min = node.next.val;
-                minNode = node;
-            }
+        Node node = head;
+        while (node.next != head) {
             node = node.next;
-            if (max < node.val){
-                max = node.val;
-                maxNode = node;
+            min = Math.min(min, node.val);
+            max = Math.max(max, node.val);
+        }
+        if (min == max) {
+            newNode.next = head.next;
+            head.next = newNode;
+        } else {
+            while (!(node.val == max && node.next.val == min)) {
+                node = node.next;
             }
-        }
-        if (insertVal < min){
-            newNode.next = minNode.next;
-            minNode.next = newNode;
-            return head;
-        }else if (insertVal > max){
-            newNode.next = maxNode.next;
-            maxNode.next = newNode;
-            return head;
-        }
-            //flag为0，表示循环链表中所有节点的值相等
-        boolean flag = true;
-        while (node.val == node.next.val){
-            node = node.next;
-            if (node == head){
-                flag = false;
-                break;
+            while (!(insertVal >= max || insertVal <= min)
+                    && !(node.val <= insertVal && node.next.val >= insertVal)) {
+                node = node.next;
             }
+            newNode.next = node.next;
+            node.next = newNode;
         }
-        //寻找循环链表中值与插入值相等的第一个节点位置,并将新节点插入地相等节点的前一个位置。
-        while (insertVal!=node.val){
-            if (node.next.val == insertVal){
-                newNode.next = node.next;
-                node.next = newNode;
-            }
-            node = node.next;
-            if (node == head){
-                break;
-            }
-        }
-
-        while ((node.val > insertVal || node.next.val < insertVal) && flag){
-            node = node.next;
-        }
-        newNode.next = node.next;
-        node.next = newNode;
         return head;
-
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

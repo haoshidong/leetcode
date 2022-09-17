@@ -6,4 +6,17 @@ class Node {
     public Node prev;
     public Node next;
     public Node child;
+    public int key;
+
+    public Node() {
+    }
+
+    public Node(int val, int key) {
+        this.val = val;
+        this.key = key;
+    }
+
+    public Node(int insertVal) {
+        this.val = insertVal;
+    }
 }
