@@ -58,6 +58,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[962]最大宽度坡.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[962]最大宽度坡.md" />
+              <option name="frontendQuestionId" value="leetcode.cn962" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[962]最大宽度坡.java" />
+              <option name="titleSlug" value="maximum-width-ramp" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 001]整数除法.java">
           <value>
             <LeetcodeEditor>
@@ -891,6 +902,83 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 076]数组中的第 k 大的数字.java" />
               <option name="titleSlug" value="xx4gT2" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 077]链表排序.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer II 077]链表排序.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 077" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 077]链表排序.java" />
+              <option name="titleSlug" value="7WHec2" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 078]合并排序链表.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer II 078]合并排序链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 078" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 078]合并排序链表.java" />
+              <option name="titleSlug" value="vvXgSW" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 079]所有子集.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer II 079]所有子集.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 079" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 079]所有子集.java" />
+              <option name="titleSlug" value="TVdhkn" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 080]含有 k 个元素的组合.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer II 080]含有 k 个元素的组合.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 080" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 080]含有 k 个元素的组合.java" />
+              <option name="titleSlug" value="uUsW3B" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 081]允许重复选择元素的组合.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer II 081]允许重复选择元素的组合.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 081" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 081]允许重复选择元素的组合.java" />
+              <option name="titleSlug" value="Ygoe9J" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 082]含有重复元素集合的组合.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer II 082]含有重复元素集合的组合.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 082" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 082]含有重复元素集合的组合.java" />
+              <option name="titleSlug" value="4sjJUc" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 083]没有重复元素集合的全排列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer II 083]没有重复元素集合的全排列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 083" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 083]没有重复元素集合的全排列.java" />
+              <option name="titleSlug" value="VvJkup" />
             </LeetcodeEditor>
           </value>
         </entry>
