@@ -1059,6 +1059,50 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 091]粉刷房子.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer II 091]粉刷房子.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 091" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 091]粉刷房子.java" />
+              <option name="titleSlug" value="JEj789" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 092]翻转字符.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer II 092]翻转字符.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 092" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 092]翻转字符.java" />
+              <option name="titleSlug" value="cyJERH" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 093]最长斐波那契数列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer II 093]最长斐波那契数列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 093" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 093]最长斐波那契数列.java" />
+              <option name="titleSlug" value="Q91FMA" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 094]最少回文分割.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[剑指 Offer II 094]最少回文分割.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 094" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer II 094]最少回文分割.java" />
+              <option name="titleSlug" value="omKAoA" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
