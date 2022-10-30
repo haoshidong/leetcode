@@ -1,4 +1,4 @@
-package Hot100.p001_p050;
+package 每日一题;
 
 public class p1822_arraySign {
     public int arraySign(int[] nums) {

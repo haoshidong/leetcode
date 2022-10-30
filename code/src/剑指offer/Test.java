@@ -1,7 +1,14 @@
 package 剑指offer;
 
 public class Test {
+
     public static void main(String[] args) {
+        String s = "";
+        s = "abc";
+        System.out.println(s);
+    }
+
+    /*public static void main(String[] args) {
         String s = "images/01/01.jpg#images/01/01.obj#images/01/01.mtl";
         String s1 = "images/";
         String s2 = ".jpg#images/";
@@ -11,7 +18,7 @@ public class Test {
             String res = s1+i+"/"+i+s2+i+"/"+i+s3+i+"/"+i+s4;
             System.out.println(res);
         }
-    }
+    }*/
 
     /*public int[] sortArray(int[] nums) {
         String s = "images/01/01.jpg#images/01/01.obj#images/01/01.mtl";
