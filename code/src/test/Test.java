@@ -2,10 +2,25 @@ package test;
 
 import 剑指offer.ListNode;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Test {
     public static void main(String[] args) {
-        ListNode res = new ListNode();
-        System.out.println(res.val);
+        Map<String,Integer> map = new HashMap<>();
+        String str = "abc";
+        map.put(str,1);
+        char[] chars = {'a','b','c'};
+        String str2 = new String(chars);
+        chars.toString();
+        if (map.containsKey(str2)){
+            System.out.println(true);
+        }else {
+            System.out.println(false);
+        }
+
+        /*ListNode res = new ListNode();
+        System.out.println(res.val);*/
         /*System.out.println(3*0.1 == 0.3);
         System.out.println(3*0.1);*/
         /*Integer x = new Integer(123);
