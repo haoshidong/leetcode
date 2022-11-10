@@ -2,22 +2,29 @@ package test;
 
 import 剑指offer.ListNode;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-        Map<String,Integer> map = new HashMap<>();
+        int[] nums = {1,2,3,4,5};
+        Integer newNums[] = Arrays.stream(nums).boxed().toArray(Integer[]::new);
+//        Integer[] preorder = {1,2,3,4,5};
+        List<Integer> pre = Arrays.asList(newNums);
+        List<Integer> n_s = pre.subList(0,2);
+        for (int num : n_s) {
+            System.out.println(num);
+        }
+        /*Map<String, Integer> map = new HashMap<>();
         String str = "abc";
-        map.put(str,1);
-        char[] chars = {'a','b','c'};
+        map.put(str, 1);
+        char[] chars = {'a', 'b', 'c'};
         String str2 = new String(chars);
         chars.toString();
-        if (map.containsKey(str2)){
+        if (map.containsKey(str2)) {
             System.out.println(true);
-        }else {
+        } else {
             System.out.println(false);
-        }
+        }*/
 
         /*ListNode res = new ListNode();
         System.out.println(res.val);*/
@@ -39,5 +46,24 @@ public class Test {
             s1.append(a);
         }
         System.out.println(s1);*/
+
+        /*int[] nums = {1, 1, 1, 7, 8, 9};
+        int k = 3;
+        double ans = maximumSubarraySum(nums, k);
+        System.out.println(ans);*/
+
+/*        String s = "00011";
+//        String ans = s.replaceFirst("0","02");
+        String a = s.substring(1);
+        System.out.println(a);*/
+        /*StringBuilder sb = new StringBuilder();
+        sb.append(s.charAt(0));
+        String n = s.replaceFirst(sb.toString(),sb.append('.').toString());
+        System.out.println(sb);
+        System.out.println(s);
+        System.out.println(n);*/
+//        System.out.println(s.replaceFirst("0","0."));
+
     }
+
 }
