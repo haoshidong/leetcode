@@ -10,6 +10,9 @@ public class Test {
         StringBuilder sb = new StringBuilder();
         sb.append((char) ('a'+1));
         System.out.println(sb.toString());
+        String s = "aaa";
+        s.toCharArray();
+        boolean b = true;
         /*int[] nums = {1,2,3,4,5};
         Integer newNums[] = Arrays.stream(nums).boxed().toArray(Integer[]::new);
 //        Integer[] preorder = {1,2,3,4,5};
