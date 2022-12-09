@@ -6,10 +6,15 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-        StringBuilder sb = new StringBuilder("abc");
+        char s = '5';
+        int a = s-'0';
+        System.out.println(s);
+        System.out.println(a);
+
+        /*StringBuilder sb = new StringBuilder("abc");
         System.out.println(sb);
         sb.deleteCharAt(sb.length()-1);
-        System.out.println(sb);
+        System.out.println(sb);*/
 
         /*char a = 'a'+1;
         StringBuilder sb = new StringBuilder();

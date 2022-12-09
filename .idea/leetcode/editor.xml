@@ -344,6 +344,39 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1752]检查数组是否经排序和轮转得到.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1752]检查数组是否经排序和轮转得到.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1752" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1752]检查数组是否经排序和轮转得到.java" />
+              <option name="titleSlug" value="check-if-array-is-sorted-and-rotated" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1758]生成交替二进制字符串的最少操作数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1758]生成交替二进制字符串的最少操作数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1758" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1758]生成交替二进制字符串的最少操作数.java" />
+              <option name="titleSlug" value="minimum-changes-to-make-alternating-binary-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1769]移动所有球到每个盒子所需的最小操作数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1769]移动所有球到每个盒子所需的最小操作数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1769" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1769]移动所有球到每个盒子所需的最小操作数.java" />
+              <option name="titleSlug" value="minimum-number-of-operations-to-move-all-balls-to-each-box" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1773]统计匹配检索规则的物品数量.java">
           <value>
             <LeetcodeEditor>
@@ -355,6 +388,50 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1774]最接近目标价格的甜点成本.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1774]最接近目标价格的甜点成本.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1774" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1774]最接近目标价格的甜点成本.java" />
+              <option name="titleSlug" value="closest-dessert-cost" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1779]找到最近的有相同 X 或 Y 坐标的点.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1779]找到最近的有相同 X 或 Y 坐标的点.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1779" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1779]找到最近的有相同 X 或 Y 坐标的点.java" />
+              <option name="titleSlug" value="find-nearest-point-that-has-the-same-x-or-y-coordinate" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1780]判断一个数字是否可以表示成三的幂的和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1780]判断一个数字是否可以表示成三的幂的和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1780" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1780]判断一个数字是否可以表示成三的幂的和.java" />
+              <option name="titleSlug" value="check-if-number-is-a-sum-of-powers-of-three" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1796]字符串中第二大的数字.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1796]字符串中第二大的数字.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1796" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1796]字符串中第二大的数字.java" />
+              <option name="titleSlug" value="second-largest-digit-in-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[17]电话号码的字母组合.java">
           <value>
             <LeetcodeEditor>
@@ -363,6 +440,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[17]电话号码的字母组合.java" />
               <option name="titleSlug" value="letter-combinations-of-a-phone-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1812]判断国际象棋棋盘中一个格子的颜色.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1812]判断国际象棋棋盘中一个格子的颜色.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1812" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1812]判断国际象棋棋盘中一个格子的颜色.java" />
+              <option name="titleSlug" value="determine-color-of-a-chessboard-square" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -795,6 +883,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[394]字符串解码.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[394]字符串解码.md" />
+              <option name="frontendQuestionId" value="leetcode.cn394" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[394]字符串解码.java" />
+              <option name="titleSlug" value="decode-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[399]除法求值.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[399]除法求值.md" />
+              <option name="frontendQuestionId" value="leetcode.cn399" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[399]除法求值.java" />
+              <option name="titleSlug" value="evaluate-division" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[39]组合总和.java">
           <value>
             <LeetcodeEditor>
@@ -814,6 +924,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[3]无重复字符的最长子串.java" />
               <option name="titleSlug" value="longest-substring-without-repeating-characters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[406]根据身高重建队列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[406]根据身高重建队列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn406" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[406]根据身高重建队列.java" />
+              <option name="titleSlug" value="queue-reconstruction-by-height" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1136,6 +1257,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[809]情感丰富的文字.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[809]情感丰富的文字.md" />
+              <option name="frontendQuestionId" value="leetcode.cn809" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[809]情感丰富的文字.java" />
+              <option name="titleSlug" value="expressive-words" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[813]最大平均值和的分组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[813]最大平均值和的分组.md" />
+              <option name="frontendQuestionId" value="leetcode.cn813" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[813]最大平均值和的分组.java" />
+              <option name="titleSlug" value="largest-sum-of-averages" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[816]模糊坐标.java">
           <value>
             <LeetcodeEditor>
@@ -1191,6 +1334,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[882]细分图中的可到达节点.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[882]细分图中的可到达节点.md" />
+              <option name="frontendQuestionId" value="leetcode.cn882" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[882]细分图中的可到达节点.java" />
+              <option name="titleSlug" value="reachable-nodes-in-subdivided-graph" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[891]子序列宽度之和.java">
           <value>
             <LeetcodeEditor>
@@ -1199,6 +1353,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[891]子序列宽度之和.java" />
               <option name="titleSlug" value="sum-of-subsequence-widths" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[895]最大频率栈.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[895]最大频率栈.md" />
+              <option name="frontendQuestionId" value="leetcode.cn895" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[895]最大频率栈.java" />
+              <option name="titleSlug" value="maximum-frequency-stack" />
             </LeetcodeEditor>
           </value>
         </entry>
