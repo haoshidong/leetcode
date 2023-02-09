@@ -3,9 +3,13 @@ package 剑指offer;
 public class Test {
 
     public static void main(String[] args) {
-        String s = "";
+        TreeNode node = new TreeNode();
+        node = null;
+        System.out.println(node.val);
+
+        /*String s = "";
         s = "abc";
-        System.out.println(s);
+        System.out.println(s);*/
     }
 
     /*public static void main(String[] args) {
