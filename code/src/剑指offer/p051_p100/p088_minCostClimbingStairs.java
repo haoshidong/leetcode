@@ -1,11 +1,14 @@
 package 剑指offer.p051_p100;
 
+import java.util.Arrays;
+
 public class p088_minCostClimbingStairs {
     public int minCostClimbingStairs(int[] cost) {
         int len = cost.length;
         for (int i = 2; i < len; i++) {
             cost[i] = Math.min(cost[i - 2], cost[i - 1]) + cost[i];
         }
+        System.out.println(Arrays.toString(cost));
         return Math.min(cost[len - 1], cost[len - 2]);
     }
 

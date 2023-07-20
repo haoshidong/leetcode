@@ -37,9 +37,11 @@ public class p029_insert {
             newNode.next = head.next;
             head.next = newNode;
         } else {
+            //找到链表的分界处，node为链表的最大值处
             while (!(node.val == max && node.next.val == min)) {
                 node = node.next;
             }
+            //若插入的值为最值（最大值或最小值），则不进入循环；否则进入循环查找node.val<=insertVal<=node.next.val的位置处
             while (!(insertVal >= max || insertVal <= min)
                     && !(node.val <= insertVal && node.next.val >= insertVal)) {
                 node = node.next;

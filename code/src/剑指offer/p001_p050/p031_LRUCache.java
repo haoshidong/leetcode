@@ -1,52 +1,70 @@
 package 剑指offer.p001_p050;
 
-import 剑指offer.Node;
-
 import java.util.HashMap;
 
 public class p031_LRUCache {
+
+    public class Node {
+        public int val;
+        public Node prev;
+        public Node next;
+        public int key;
+
+        public Node() {
+        }
+
+        public Node(int key, int val) {
+            this.val = val;
+            this.key = key;
+        }
+
+        public Node(int insertVal) {
+            this.val = insertVal;
+        }
+    }
+
     private Node head;
     private Node tail;
-    private HashMap<Integer,Node> map;
+    private HashMap<Integer, Node> map;
     int capacity;
 
     public p031_LRUCache(int capacity) {
-        head = new Node(-1,-1);
-        tail = new Node(-1,-1);
+        head = new Node(-1, -1);
+        tail = new Node(-1, -1);
         head.next = tail;
         tail.prev = head;
 
         map = new HashMap<>();
 
-        capacity =capacity;
+        this.capacity = capacity;
     }
 
     public int get(int key) {
-        if (map.containsKey(key)){
+        if (map.containsKey(key)) {
             Node location = map.get(key);
-            moveToTail(location,location.val);
+            moveToTail(location, location.val);
             return location.val;
-        }else {
+        } else {
             return -1;
         }
     }
 
     public void put(int key, int value) {
-        if (map.containsKey(key)){
-            moveToTail(map.get(key),value);
-        }else {
-            if (map.size()==capacity){
+        if (map.containsKey(key)) {
+            moveToTail(map.get(key), value);
+        } else {
+            if (map.size() == capacity) {
                 Node toBeDelete = head.next;
                 delete(toBeDelete);
                 map.remove(toBeDelete.key);
             }
-            Node newNode = new Node(key,value);
+            Node newNode = new Node(key, value);
             insetToTail(newNode);
-            map.put(key,tail.prev);
+            map.put(key, tail.prev);
         }
     }
 
-    private void moveToTail(Node location,int val) {
+    private void moveToTail(Node location, int val) {
         delete(location);
         location.val = val;
         insetToTail(location);

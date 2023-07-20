@@ -10,7 +10,6 @@ public class p065_minimumLengthEncoding {
         }
     }
 
-
     public int minimumLengthEncoding(String[] words) {
         TrieNode root = buildTrie(words);
         int[] total = {0};

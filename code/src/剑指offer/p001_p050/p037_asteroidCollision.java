@@ -4,6 +4,7 @@ import java.util.Stack;
 
 public class p037_asteroidCollision {
     public int[] asteroidCollision(int[] asteroids) {
+        //stack存放当前不会碰撞的所有小行星
         Stack<Integer> stack = new Stack<>();
         for (int asteroid:asteroids){
             while (!stack.isEmpty() && stack.peek() > 0 && stack.peek() < -asteroid){

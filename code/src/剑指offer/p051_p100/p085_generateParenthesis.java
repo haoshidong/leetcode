@@ -17,6 +17,7 @@ public class p085_generateParenthesis {
             res.add(new String(str));
         } else {
             if (count >= 0 && count <= n && str.length() < n * 2) {
+                //count值为可以添加的 ")" 的个数
                 count++;
                 str.append('(');
                 helper(n, count, str, res);

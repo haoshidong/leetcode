@@ -4,28 +4,33 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class p106_isBipartite {
+    /*给每个节点染色（1或者2），相邻节点颜色不一样，
+    * 若所有节点能正常染色，则返回true    */
     public boolean isBipartite(int[][] graph) {
-        int[] dp = new int[graph.length];
+        int[] gNode = new int[graph.length];
 
+        //若图中有互不连通的子图，则需要循环遍历每个图节点
         for (int i = 0; i < graph.length; i++) {
-            if (dp[i] == 0) {
-                dp[i] = 1;
+            //0表示未染色，未染色的先染成1
+            if (gNode[i] == 0) {
+                gNode[i] = 1;
             }
             Queue<Integer> queue = new LinkedList<>();
             queue.offer(i);
             while (!queue.isEmpty()) {
                 int col = queue.poll();
-                int val = dp[col];
+                int val = gNode[col];
                 for (int j = 0; j < graph[col].length; j++) {
                     int cur = graph[col][j];
-                    if (dp[cur] == val) {
+                    //不能成功染色，返回false
+                    if (gNode[cur] == val) {
                         return false;
-                    } else if (dp[cur] == 0) {
+                    } else if (gNode[cur] == 0) {
                         queue.offer(cur);
                         if (val == 1) {
-                            dp[cur] = 2;
+                            gNode[cur] = 2;
                         } else if (val == 2) {
-                            dp[cur] = 1;
+                            gNode[cur] = 1;
                         }
                     }
                 }

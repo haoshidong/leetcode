@@ -2,9 +2,11 @@ package 剑指offer.p051_p100;
 
 public class p070_singleNonDuplicate {
     public int singleNonDuplicate(int[] nums) {
+        //从下标0开始，分成两两一组：（0,1），（2,3）....（nums.length-1）,最后一组只有一个数字
         if (nums.length==1){
             return nums[0];
         }
+        //组的下标：0 ~ nums.length/2
         int left = 0;
         int right = nums.length / 2;
         while (left <= right) {

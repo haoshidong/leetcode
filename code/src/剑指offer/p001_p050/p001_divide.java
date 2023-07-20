@@ -4,32 +4,32 @@ import java.util.Scanner;
 
 public class p001_divide {
 
-    public static int divide(int dividend,int divisor){
-        if (dividend == 0x80000000 && divisor == -1 ){
+    public static int divide(int dividend, int divisor) {
+        if (dividend == 0x80000000 && divisor == -1) {
             return Integer.MAX_VALUE;
         }
 
         int negative = 2;
-        if (dividend > 0){
+        if (dividend > 0) {
             negative--;
             dividend = -dividend;
         }
-        if (divisor > 0){
+        if (divisor > 0) {
             negative--;
             divisor = -divisor;
         }
 
         int result = divideCore(dividend, divisor);
-        return negative==1?-result:result;
+        return negative == 1 ? -result : result;
 
     }
 
     private static int divideCore(int dividend, int divisor) {
         int result = 0;
-        while (dividend <= divisor){
+        while (dividend <= divisor) {
             int quotient = 1;
             int value = divisor;
-            while (value < 0xc0000000 && dividend <= value + value){
+            while (value >= Integer.MIN_VALUE >> 1 && dividend <= value << 1) {
                 quotient += quotient;
                 value += value;
             }
@@ -47,7 +47,7 @@ public class p001_divide {
         System.out.println("请输入除数：");
         int divisor = sc.nextInt();
         int result = divide(dividend, divisor);
-        System.out.println("商为："+result);
+        System.out.println("商为：" + result);
     }
 
 }

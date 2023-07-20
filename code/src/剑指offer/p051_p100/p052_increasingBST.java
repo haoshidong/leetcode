@@ -9,7 +9,7 @@ public class p052_increasingBST {
     TreeNode prev = null;
     TreeNode first = null;
     public TreeNode increasingBST(TreeNode root) {
-        dfs(root,prev);
+        dfs(root);
         return first;
         /*Stack<TreeNode> stack = new Stack<>();
         TreeNode cur = root;
@@ -35,9 +35,9 @@ public class p052_increasingBST {
         return first;*/
     }
 
-    private void dfs(TreeNode root, TreeNode prev) {
+    private void dfs(TreeNode root) {
         if (root!=null){
-            dfs(root.left,prev);
+            dfs(root.left);
             if (prev!=null){
                 prev.right = root;
             }else {
@@ -45,7 +45,7 @@ public class p052_increasingBST {
             }
             prev = root;
             root.left = null;
-            dfs(root.right,prev);
+            dfs(root.right);
         }
     }
 }

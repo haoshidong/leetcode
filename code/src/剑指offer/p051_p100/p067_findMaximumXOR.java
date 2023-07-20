@@ -34,6 +34,7 @@ public class p067_findMaximumXOR {
         return max;
     }
 
+    //将所有整数看成32位长度的bit数。构建前缀树
     private TrieNode buildTrie(int[] nums) {
         TrieNode root = new TrieNode();
         for (int num : nums) {

@@ -8,6 +8,7 @@ public class p039_largestRectangleArea {
         stack.push(-1);
         int maxArea = 0;
         for (int i = 0; i < heights.length; i++) {
+            //计算以当前stack.peek()为右边界的矩形最大面积。（>=）
             while (stack.peek() != -1 && heights[stack.peek()] >= heights[i]) {
                 int height = heights[stack.pop()];
                 int width = i - stack.peek() - 1;
