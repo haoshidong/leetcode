@@ -2,6 +2,8 @@ package test;
 
 import 剑指offer.ListNode;
 
+import javax.xml.crypto.Data;
+import java.math.BigDecimal;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ConcurrentHashMap;
@@ -12,27 +14,36 @@ public class Test {
 
     public static void main(String[] args) {
 
-        int[] nums = {2,4,3,10,6,7};
-        int target = 8;
+        int[] nums = {1,2,3};
+        List<Integer> list = Arrays.asList(1, 2, 3);
+        List<Integer> integers = new ArrayList<>(list);
+        Integer remove = integers.remove(1);
+//        return positive ? temp : 1 / temp;
 
-        int first = -1;
-        int second = -1;
-        int[][] indexToNum = new int[nums.length][2];
-        for (int i = 0; i < nums.length; i++) {
-            indexToNum[i][0] = i;
-            indexToNum[i][1] = nums[i];
-        }
-        Arrays.sort(indexToNum,(a, b) -> {
-            return a[1] - b[1];
-        });
-
-        for (int[] s : indexToNum) {
-            System.out.println(Arrays.toString(s));
-        }
-
-
-
-
+//        int[][] people = {};
+//        Arrays.sort(people, (a,b) -> {
+//            if(a[0] == b[0]){
+//                return a[1] - b[1];
+//            }
+//            return b[0] - a[0];
+//        });
+//        LinkedList<int[]> res = new LinkedList<>();
+//
+//        String p = " ";
+//        for(int[] p : people){
+//            res.add(p[1], p);
+//        }
+//        int[][] array = res.toArray(new int[people.length][]);
+//        Map<Character, Integer> pToCt = new HashMap<>();
+//        for(char ch : p.toCharArray()){
+//            pToCt.put(ch, map.getOrDefault(ch, 0) + 1);
+//        }
+//        int l = 0;
+//        int r = 0;
+//        Map<Character, Integer> window = new HashMap<>(pToCt);
+//        for(;r < p.length(); r++){
+//
+//        }
 
 //        byte a = 'A';
 //        System.out.println(a);

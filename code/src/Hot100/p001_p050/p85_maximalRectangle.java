@@ -3,16 +3,25 @@ package Hot100.p001_p050;
 import java.util.Stack;
 
 public class p85_maximalRectangle {
+
+    public static void main(String[] args) {
+        char[][] matrix = {{'1','0','1','0','0'},{'1','0','1','1','1'},{'1','1','1','1','1'},{'1','0','0','1','0'}};
+        System.out.println(matrix[0][0] == '1');
+        p85_maximalRectangle p85MaximalRectangle = new p85_maximalRectangle();
+        int i = p85MaximalRectangle.maximalRectangle(matrix);
+        System.out.println(i);
+    }
     public int maximalRectangle(char[][] matrix) {
         int[] h = new int[matrix[0].length];
         int maxArea = 0;
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
-                if (matrix[i][j] == '0') {
-                    h[j] = 0;
-                } else {
-                    h[j]++;
-                }
+                h[j] = (matrix[i][j] == '0' ? 0 : h[j] + 1);
+//                if (matrix[i][j] == '0') {
+//                    h[j] = 0;
+//                } else {
+//                    h[j]++;
+//                }
             }
             maxArea = Math.max(maxArea, largestRectangleArea(h));
         }

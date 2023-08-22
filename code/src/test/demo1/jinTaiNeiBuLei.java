@@ -14,6 +14,8 @@ public class jinTaiNeiBuLei {
         t1 t2 = new t1(2);
         System.out.println(t1.a);
         System.out.println(t2.a);
+        jinTaiNeiBuLei.t1 t11 = new t1(1);
+
     }
 
 }

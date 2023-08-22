@@ -1,17 +1,23 @@
 package test;
 
+import java.util.Scanner;
+
 public class a {
     public static void main(String[] args) {
         //Scanner in = new Scanner(System.in);
         //int a = in.nextInt();
         //System.out.println(a);
+        Scanner in = new Scanner(System.in);
+        int i = in.nextInt();
+        String s = in.next();
+        in.nextLine();
+        String s1 = in.nextLine();
+        System.out.println(i);
+        System.out.println(s);
+        System.out.println(s1);
         System.out.println("Hello World!");
-        a test = new a();
-        int[] nums = {2,9,5,1};
-        int[] ans = a.charu(nums, 1);
-        for ( int num : ans){
-            System.out.println(num);
-        }
+//        a test = new a();
+
     }
     public static int[] charu(int[] nums,int i){
         if(i < nums.length){

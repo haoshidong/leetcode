@@ -46,4 +46,4 @@ log/
 *.pid
 *.orig
 temp/
-
+../leetcode/leetcode/**
