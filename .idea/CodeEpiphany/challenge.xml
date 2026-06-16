@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.wenjun.codeepiphany.challenge.settings">
+    <option name="challenges">
+      <map>
+        <entry key="$PROJECT_DIR$/code/src/new_hot100/P17_LetterCombinationsOfAPhoneNumber.java">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="2066730994651762688" />
+              <option name="challengeLanguageId" value="2066730994660151296" />
+              <option name="defaultTestCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[&quot;ad&quot;,&quot;ae&quot;,&quot;af&quot;,&quot;bd&quot;,&quot;be&quot;,&quot;bf&quot;,&quot;cd&quot;,&quot;ce&quot;,&quot;cf&quot;]" />
+                  <option name="input" value="&quot;23&quot;" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[&quot;a&quot;,&quot;b&quot;,&quot;c&quot;]" />
+                  <option name="input" value="&quot;2&quot;" />
+                </TestCase>
+              </option>
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="java" />
+              <option name="solutionId" value="2066730994676928512" />
+              <option name="testCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[&quot;ad&quot;,&quot;ae&quot;,&quot;af&quot;,&quot;bd&quot;,&quot;be&quot;,&quot;bf&quot;,&quot;cd&quot;,&quot;ce&quot;,&quot;cf&quot;]" />
+                  <option name="input" value="&quot;23&quot;" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[&quot;a&quot;,&quot;b&quot;,&quot;c&quot;]" />
+                  <option name="input" value="&quot;2&quot;" />
+                </TestCase>
+              </option>
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/new_hot100/P19_RemoveNthNodeFromEndOfList.java">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="2066852271127400448" />
+              <option name="challengeLanguageId" value="2066852271131594752" />
+              <option name="defaultTestCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[1,2,3,5]" />
+                  <option name="input" value="[1,2,3,4,5]&#10;2" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[]" />
+                  <option name="input" value="[1]&#10;1" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[1]" />
+                  <option name="input" value="[1,2]&#10;1" />
+                </TestCase>
+              </option>
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="java" />
+              <option name="solutionId" value="2066852271135789056" />
+              <option name="testCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[1,2,3,5]" />
+                  <option name="input" value="[1,2,3,4,5]&#10;2" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[]" />
+                  <option name="input" value="[1]&#10;1" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[1]" />
+                  <option name="input" value="[1,2]&#10;1" />
+                </TestCase>
+              </option>
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/new_hot100/P20_ValidParentheses.java">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="2066855867042631680" />
+              <option name="challengeLanguageId" value="2066855867051020288" />
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="java" />
+              <option name="solutionId" value="2066855867051020289" />
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
