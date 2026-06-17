@@ -84,6 +84,45 @@
             </ChallengeSettingsStateItem>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/code/src/new_hot100/P21_MergeTwoSortedLists.java">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="2066885066734309376" />
+              <option name="challengeLanguageId" value="2066885066746892288" />
+              <option name="defaultTestCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[1,1,2,3,4,4]" />
+                  <option name="input" value="[1,2,4]&#10;[1,3,4]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[]" />
+                  <option name="input" value="[]&#10;[]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[0]" />
+                  <option name="input" value="[]&#10;[0]" />
+                </TestCase>
+              </option>
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="java" />
+              <option name="solutionId" value="2066885066755280896" />
+              <option name="testCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[1,1,2,3,4,4]" />
+                  <option name="input" value="[1,2,4]&#10;[1,3,4]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[]" />
+                  <option name="input" value="[]&#10;[]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[0]" />
+                  <option name="input" value="[]&#10;[0]" />
+                </TestCase>
+              </option>
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/code/src/new_hot100/P22_GenerateParentheses.java">
           <value>
             <ChallengeSettingsStateItem>
@@ -110,6 +149,84 @@
                 <TestCase>
                   <option name="expectedOutput" value="[&quot;()&quot;]" />
                   <option name="input" value="1" />
+                </TestCase>
+              </option>
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/new_hot100/P23_MergeKSortedLists.java">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="2067241126716379136" />
+              <option name="challengeLanguageId" value="2067241126821236736" />
+              <option name="defaultTestCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[1,1,2,3,4,4,5,6]" />
+                  <option name="input" value="[[1,4,5],[1,3,4],[2,6]]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[]" />
+                  <option name="input" value="[]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[]" />
+                  <option name="input" value="[[]]" />
+                </TestCase>
+              </option>
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="java" />
+              <option name="solutionId" value="2067241126838013952" />
+              <option name="testCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[1,1,2,3,4,4,5,6]" />
+                  <option name="input" value="[[1,4,5],[1,3,4],[2,6]]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[]" />
+                  <option name="input" value="[]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[]" />
+                  <option name="input" value="[[]]" />
+                </TestCase>
+              </option>
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/new_hot100/P31_NextPermutation.java">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="2067253148698939392" />
+              <option name="challengeLanguageId" value="2067253148707328000" />
+              <option name="defaultTestCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[1,3,2]" />
+                  <option name="input" value="[1,2,3]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[1,2,3]" />
+                  <option name="input" value="[3,2,1]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[1,5,1]" />
+                  <option name="input" value="[1,1,5]" />
+                </TestCase>
+              </option>
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="java" />
+              <option name="solutionId" value="2067253148711522304" />
+              <option name="testCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[1,3,2]" />
+                  <option name="input" value="[1,2,3]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[1,2,3]" />
+                  <option name="input" value="[3,2,1]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[1,5,1]" />
+                  <option name="input" value="[1,1,5]" />
                 </TestCase>
               </option>
             </ChallengeSettingsStateItem>
