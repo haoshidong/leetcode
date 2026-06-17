@@ -84,6 +84,37 @@
             </ChallengeSettingsStateItem>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/code/src/new_hot100/P22_GenerateParentheses.java">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="2067210490974703616" />
+              <option name="challengeLanguageId" value="2067210490991480832" />
+              <option name="defaultTestCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[&quot;((()))&quot;,&quot;(()())&quot;,&quot;(())()&quot;,&quot;()(())&quot;,&quot;()()()&quot;]" />
+                  <option name="input" value="3" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[&quot;()&quot;]" />
+                  <option name="input" value="1" />
+                </TestCase>
+              </option>
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="java" />
+              <option name="solutionId" value="2067210491012452352" />
+              <option name="testCases">
+                <TestCase>
+                  <option name="expectedOutput" value="[&quot;((()))&quot;,&quot;(()())&quot;,&quot;(())()&quot;,&quot;()(())&quot;,&quot;()()()&quot;]" />
+                  <option name="input" value="3" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="[&quot;()&quot;]" />
+                  <option name="input" value="1" />
+                </TestCase>
+              </option>
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
