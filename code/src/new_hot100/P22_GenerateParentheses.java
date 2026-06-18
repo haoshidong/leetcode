@@ -3,8 +3,6 @@ package new_hot100;
 import java.util.ArrayList;
 import java.util.List;
 
-import static test.mt.t2.dfs;
-
 class P22_GenerateParentheses {
 
     

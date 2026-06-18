@@ -1,7 +1,5 @@
 package Hot100.p051_p100;
 
-import com.sun.org.apache.xpath.internal.functions.FuncFalse;
-
 public class p240_searchMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {
         int row = 0;
