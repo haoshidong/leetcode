@@ -1,7 +1,5 @@
 package Hot100.p001_p050;
 
-import jdk.nashorn.internal.runtime.linker.LinkerCallSite;
-
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;

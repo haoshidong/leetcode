@@ -1,7 +1,5 @@
 package 剑指offer.p051_p100;
 
-import jdk.internal.dynalink.beans.StaticClass;
-import sun.text.normalizer.Trie;
 
 public class p062_Trie {
 

@@ -1,11 +1,7 @@
 package Hot100.p001_p050;
 
-import javafx.scene.effect.SepiaTone;
-
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 public class p3_lengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
