@@ -9,8 +9,8 @@
     <option name="queryCriteria">
       <map>
         <entry key="LeetCodeChallengesView-lastUI" value="QueryParameters" />
-        <entry key="LeetCodeParametersQueryPresenter-criteria" value="{&quot;selectedCategory&quot;:null,&quot;selectedFavorite&quot;:{&quot;id&quot;:&quot;2cktkvj&quot;,&quot;name&quot;:&quot;  LeetCode 热题 HOT 100&quot;,&quot;type&quot;:&quot;leetcode_favorites&quot;},&quot;selectedDifficulty&quot;:null,&quot;selectedStatus&quot;:null,&quot;tags&quot;:[],&quot;orderBy&quot;:null}" />
-        <entry key="LeetCodeParametersQueryPresenter-pageSize" value="100" />
+        <entry key="LeetCodeParametersQueryPresenter-criteria" value="{&quot;selectedCategory&quot;:{&quot;title&quot;:&quot;Algorithms&quot;,&quot;url&quot;:&quot;/problemset/algorithms/&quot;,&quot;slug&quot;:&quot;algorithms&quot;},&quot;selectedFavorite&quot;:{&quot;id&quot;:&quot;2cktkvj&quot;,&quot;name&quot;:&quot;  LeetCode 热题 HOT 100&quot;,&quot;type&quot;:&quot;leetcode_favorites&quot;},&quot;selectedDifficulty&quot;:null,&quot;selectedStatus&quot;:null,&quot;tags&quot;:[],&quot;orderBy&quot;:[&quot;FRONTEND_ID&quot;,&quot;Ascending&quot;]}" />
+        <entry key="LeetCodeParametersQueryPresenter-pageSize" value="50" />
       </map>
     </option>
   </component>
