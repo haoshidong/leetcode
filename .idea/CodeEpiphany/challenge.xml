@@ -539,6 +539,37 @@
             </ChallengeSettingsStateItem>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/code/src/new_hot100/P55_JumpGame.java">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="2069420184287973376" />
+              <option name="challengeLanguageId" value="2069420184296361984" />
+              <option name="defaultTestCases">
+                <TestCase>
+                  <option name="expectedOutput" value="true" />
+                  <option name="input" value="[2,3,1,1,4]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="false" />
+                  <option name="input" value="[3,2,1,0,4]" />
+                </TestCase>
+              </option>
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="java" />
+              <option name="solutionId" value="2069420184300556288" />
+              <option name="testCases">
+                <TestCase>
+                  <option name="expectedOutput" value="true" />
+                  <option name="input" value="[2,3,1,1,4]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="false" />
+                  <option name="input" value="[3,2,1,0,4]" />
+                </TestCase>
+              </option>
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
