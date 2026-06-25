@@ -601,6 +601,130 @@
             </ChallengeSettingsStateItem>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/code/src/new_hot100/P62_UniquePaths.java">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="2069769925999857664" />
+              <option name="challengeLanguageId" value="2069769926008246272" />
+              <option name="defaultTestCases">
+                <TestCase>
+                  <option name="expectedOutput" value="28" />
+                  <option name="input" value="3&#10;7" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="3" />
+                  <option name="input" value="3&#10;2" />
+                </TestCase>
+              </option>
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="java" />
+              <option name="solutionId" value="2069769926012440576" />
+              <option name="testCases">
+                <TestCase>
+                  <option name="expectedOutput" value="28" />
+                  <option name="input" value="3&#10;7" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="3" />
+                  <option name="input" value="3&#10;2" />
+                </TestCase>
+              </option>
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/new_hot100/P64_MinimumPathSum.java">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="2069777028697165824" />
+              <option name="challengeLanguageId" value="2069777028705554432" />
+              <option name="defaultTestCases">
+                <TestCase>
+                  <option name="expectedOutput" value="7" />
+                  <option name="input" value="[[1,3,1],[1,5,1],[4,2,1]]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="12" />
+                  <option name="input" value="[[1,2,3],[4,5,6]]" />
+                </TestCase>
+              </option>
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="java" />
+              <option name="solutionId" value="2069777028709748736" />
+              <option name="testCases">
+                <TestCase>
+                  <option name="expectedOutput" value="7" />
+                  <option name="input" value="[[1,3,1],[1,5,1],[4,2,1]]" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="12" />
+                  <option name="input" value="[[1,2,3],[4,5,6]]" />
+                </TestCase>
+              </option>
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/new_hot100/P70_ClimbingStairs.java">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="2070151394085703680" />
+              <option name="challengeLanguageId" value="2070151394094092288" />
+              <option name="defaultTestCases">
+                <TestCase>
+                  <option name="expectedOutput" value="2" />
+                  <option name="input" value="2" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="3" />
+                  <option name="input" value="3" />
+                </TestCase>
+              </option>
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="java" />
+              <option name="solutionId" value="2070151394098286592" />
+              <option name="testCases">
+                <TestCase>
+                  <option name="expectedOutput" value="2" />
+                  <option name="input" value="2" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="3" />
+                  <option name="input" value="3" />
+                </TestCase>
+              </option>
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code/src/new_hot100/P72_EditDistance.java">
+          <value>
+            <ChallengeSettingsStateItem>
+              <option name="challengeId" value="2070153108285165568" />
+              <option name="challengeLanguageId" value="2070153108289359872" />
+              <option name="defaultTestCases">
+                <TestCase>
+                  <option name="expectedOutput" value="3" />
+                  <option name="input" value="&quot;horse&quot;&#10;&quot;ros&quot;" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="5" />
+                  <option name="input" value="&quot;intention&quot;&#10;&quot;execution&quot;" />
+                </TestCase>
+              </option>
+              <option name="dojo" value="leetcodecn" />
+              <option name="language" value="java" />
+              <option name="solutionId" value="2070153108289359873" />
+              <option name="testCases">
+                <TestCase>
+                  <option name="expectedOutput" value="3" />
+                  <option name="input" value="&quot;horse&quot;&#10;&quot;ros&quot;" />
+                </TestCase>
+                <TestCase>
+                  <option name="expectedOutput" value="5" />
+                  <option name="input" value="&quot;intention&quot;&#10;&quot;execution&quot;" />
+                </TestCase>
+              </option>
+            </ChallengeSettingsStateItem>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
